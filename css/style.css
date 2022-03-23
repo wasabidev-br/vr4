@@ -572,7 +572,7 @@ Main Menu
 
 #mainMenu nav > ul > li { float: left; border: 0; -webkit-transition: all .3s ease; transition: all .3s ease; margin-left: 6px; position: relative; }
 
-#mainMenu nav > ul > li > a { position: relative; font-family: "Poppins", sans-serif; padding: 10px 12px; text-transform: uppercase; font-size: 12px; font-weight: 600; letter-spacing: 0.6px; color: #000000; border-radius: 0; border-width: 0; border-style: solid; border-color: transparent; -webkit-transition: all .3s ease; transition: all .3s ease; line-height: normal; }
+#mainMenu nav > ul > li > a { position: relative; font-family: "Poppins", sans-serif; padding: 10px 12px; font-size: 12px; font-weight: 600; letter-spacing: 0.6px; color: #000000; border-radius: 0; border-width: 0; border-style: solid; border-color: transparent; -webkit-transition: all .3s ease; transition: all .3s ease; line-height: normal; }
 
 #mainMenu nav > ul > li > a > i { margin-left: 2px; margin-right: 6px; min-width: 14px; font-size: 14px; }
 
@@ -6249,7 +6249,7 @@ a[data-toggle] { color: #3c4043; }
 .modal p { font-size: 15px; line-height: 26px; margin-top: 0; margin-bottom: 13px; font-weight: 300; }
 
 /*Strip*/
-.modal-strip { background-color: #000000; bottom: 0; color: #fff; left: 0; padding: 20px; position: fixed; width: 100%; display: inline-block; -webkit-transform: translate3d(0px, 200px, 0px); transform: translate3d(0px, 200px, 0px); -webkit-transition: all 0.7s ease 0s; transition: all 0.7s ease 0s; z-index: 999 !important; }
+.modal-strip { background-color: #000000; bottom: 0; color: #000000; left: 0; padding: 20px; position: fixed; width: 100%; display: inline-block; -webkit-transform: translate3d(0px, 200px, 0px); transform: translate3d(0px, 200px, 0px); -webkit-transition: all 0.7s ease 0s; transition: all 0.7s ease 0s; z-index: 999 !important; }
 
 .modal-strip .btn, .modal-strip h5, .modal-strip h4, .modal-strip h3, .modal-strip h2, .modal-strip h1 { margin-bottom: 0 !important; }
 
