@@ -87,13 +87,13 @@ section.dark, .dark section { background-color: #1e2022; color: #2e2e2e; }
 
 #page-title.page-title-right .breadcrumb { float: right; text-align: right; }
 
-#page-title[data-bg-parallax] .page-title > h1 { color: #fff; }
+#page-title[data-bg-parallax] .page-title > h1 { color: rgb(255, 255, 255); }
 
-#page-title[data-bg-parallax] .page-title > span { color: #fff; }
+#page-title[data-bg-parallax] .page-title > span { color: rgb(255, 255, 255); }
 
-#page-title[data-bg-parallax] .breadcrumb ul li + li:before { color: #fff; }
+#page-title[data-bg-parallax] .breadcrumb ul li + li:before { color: rgb(255, 255, 255); }
 
-#page-title[data-bg-parallax] .breadcrumb ul li a { color: #fff; }
+#page-title[data-bg-parallax] .breadcrumb ul li a { color: rgb(255, 255, 255); }
 
 #page-title[data-bg-parallax], #page-title[data-bg-video] { background-color: #1e2022; }
 
@@ -2188,7 +2188,7 @@ Portfolio
 /* ----------------------------------------------------------------
     FOOTER
 -----------------------------------------------------------------*/
-#footer { display: block; position: relative; background-color: #f9f9fa; font-size: 14px; line-height: 32px; font-weight: 400; font-family: inherit; }
+#footer { display: block; position: relative; background-color: #9e9ea0; font-size: 14px; line-height: 32px; font-weight: 400; font-family: inherit; }
 
 #footer a:not(.btn):not(:hover) { color: #3c4043; }
 
