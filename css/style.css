@@ -9,6 +9,7 @@ Inspiro Themes (https://inspirothemes.com)
 Author: INSPIRO - Ardian Berisha
 Copyright 2021
 
+
 */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,400,500,600,700,800|Nunito:300,400,600,700,800");
 section { padding: 6rem 0; position: relative; width: 100%; z-index: 1; background-color: #fff; }
@@ -446,7 +447,7 @@ Topbar
 
 #header .container { position: relative; }
 
-#header .header-inner, #header #header-wrap { height: 80px; background-color: #fff; /*         backface-visibility: hidden; -webkit-backface-visibility: hidden; */ left: 0; right: 0; -webkit-transition: all .4s ease-in-out; transition: all .4s ease-in-out; /*logo*/ }
+#header .header-inner, #header #header-wrap { height: 80px; background-color: rgb(231, 231, 231); /*         backface-visibility: hidden; -webkit-backface-visibility: hidden; */ left: 0; right: 0; -webkit-transition: all .4s ease-in-out; transition: all .4s ease-in-out; /*logo*/ }
 
 #header .header-inner #logo, #header #header-wrap #logo { float: left; font-size: 28px; position: relative; z-index: 1; -webkit-transition: all .4s ease-in-out; transition: all .4s ease-in-out; height: 80px; }
 
@@ -2188,7 +2189,7 @@ Portfolio
 /* ----------------------------------------------------------------
     FOOTER
 -----------------------------------------------------------------*/
-#footer { display: block; position: relative; background-color: #9e9ea0; font-size: 14px; line-height: 32px; font-weight: 400; font-family: inherit; }
+#footer { display: block; position: relative; background-color: #e0e0e0; font-size: 14px; line-height: 32px; font-weight: 400; font-family: inherit; }
 
 #footer a:not(.btn):not(:hover) { color: #3c4043; }
 
