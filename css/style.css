@@ -180,7 +180,7 @@ section.dark, .dark section { background-color: #1e2022; color: #2e2e2e; }
 
 .grid-layout.grid-loaded .grid-loader { opacity: 0; }
 
-.grid-layout, .portfolioo, .posts { position: relative; display: block; clear: both; padding: 0; }
+.grid-layout, .portfolio, .posts { position: relative; display: block; clear: both; padding: 0; }
 
 .grid-mix-size .portfolio-item:nth-child(2n) .new-badge { right: 70px !important; }
 
@@ -1512,7 +1512,7 @@ Portfolio
 
 .portfolio-item .portfolio-description, .portfolio-item .grid-description, .portfolio-item .portfolio-links, .grid-item .portfolio-description, .grid-item .grid-description, .grid-item .portfolio-links { left: 0; margin: 0 auto; padding: 20px; opacity: 0; position: absolute; right: 0; text-align: center; top: 48%; -webkit-transform: translate3d(0px, -38%, 0px); transform: translate3d(0px, -38%, 0px); -webkit-transition: all 250ms ease-in-out 0s; transition: all 250ms ease-in-out 0s; visibility: hidden; width: 70%; z-index: 3; }
 
-.portfolio-item .portfolio-description h3, .portfolio-item .grid-description h3, .portfolio-item .portfolio-links h3, .grid-item .portfolio-description h3, .grid-item .grid-description h3, .grid-item .portfolio-links h3 { font-size: 16px; font-style: normal; font-weight: 700; letter-spacing: 1px; line-height: 18px; text-transform: uppercase; margin-bottom: 4px; }
+.portfolio-item .portfolio-description h3, .portfolio-item .grid-description h3, .portfolio-item .portfolio-links h3, .grid-item .portfolio-description h3, .grid-item .grid-description h3, .grid-item .portfolio-links h3 { font-size: 16px; font-style: normal; font-weight: 700; letter-spacing: 1px; line-height: 18px; margin-bottom: 4px; }
 
 .portfolio-item .portfolio-description h3, .portfolio-item .portfolio-description p, .portfolio-item .portfolio-description span, .portfolio-item .grid-description h3, .portfolio-item .grid-description p, .portfolio-item .grid-description span, .portfolio-item .portfolio-links h3, .portfolio-item .portfolio-links p, .portfolio-item .portfolio-links span, .grid-item .portfolio-description h3, .grid-item .portfolio-description p, .grid-item .portfolio-description span, .grid-item .grid-description h3, .grid-item .grid-description p, .grid-item .grid-description span, .grid-item .portfolio-links h3, .grid-item .portfolio-links p, .grid-item .portfolio-links span { color: #fff; }
 
@@ -1626,7 +1626,7 @@ Portfolio
 
 .portfolio-item.no-overlay .portfolio-description, .portfolio-item.no-overlay .grid-description, .grid-item.no-overlay .portfolio-description, .grid-item.no-overlay .grid-description { opacity: 1; padding: 6px; position: relative; -webkit-transform: translateY(-10px); -ms-transform: translateY(-10px); transform: translateY(-10px); visibility: inherit; width: 100%; }
 
-.portfolio-item.no-overlay .portfolio-description h3, .portfolio-item.no-overlay .grid-description h3, .grid-item.no-overlay .portfolio-description h3, .grid-item.no-overlay .grid-description h3 { color: #3c4043; font-size: 16px; font-style: normal; font-weight: 700; letter-spacing: 1px; line-height: 18px; margin-bottom: 4px; text-transform: uppercase; }
+.portfolio-item.no-overlay .portfolio-description h3, .portfolio-item.no-overlay .grid-description h3, .grid-item.no-overlay .portfolio-description h3, .grid-item.no-overlay .grid-description h3 { color: #3c4043; font-size: 16px; font-style: normal; font-weight: 700; letter-spacing: 1px; line-height: 18px; margin-bottom: 4px; }
 
 .portfolio-item.no-overlay .portfolio-description span, .portfolio-item.no-overlay .grid-description span, .grid-item.no-overlay .portfolio-description span, .grid-item.no-overlay .grid-description span { color: #3c4043; font-size: 13px; font-style: normal; font-weight: 400; letter-spacing: 0; line-height: 15px; text-transform: capitalize; opacity: 1; }
 
