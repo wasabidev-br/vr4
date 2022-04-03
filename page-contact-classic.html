@@ -127,30 +127,30 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
-                        <h3 class="m-b-10">Cómo contactarnos?</h3>
-                        <p>Haga su consulta ya. Por Whatsapp, por teléfono, puede visitarnos si lo desea. y también por mail. Va a ser un placer para nosotros atender cualquier duda o consulta que tenga.</p>
+                    <div class="col-lg-6">
+                        <h3 class="m-b-10">Contáctenos!</h3>
+                        <p>No dude en hacernos llegar su consulta. Por el medio que considere más conveniente. Una llamada, un mensaje de WhatsApp, un mail. O si desea, el formulario de contacto que sigue a continuación. Vamos a darle la atención que merece y responderemos en el menor tiempo posible.</p>
                         <div class="m-t-30">
-                            <form class="widget-contact-form" data-success-message-delay="40000" novalidate action="include/contact-form.php" role="form" method="post">
+                            <form class="widget-contact-form" action="include/contact-form-attachment.php" role="form" method="post" enctype="multipart/form-data">
                                 <div class="row">
-                                    <div class="form-group col-md-12">
+                                    <div class="form-group col-md-6">
                                         <label for="name">Nombre</label>
-                                        <input type="text" aria-required="true" name="widget-contact-form-name" required class="form-control required name" placeholder="Ingrese su nombre">
+                                        <input type="text" aria-required="true" name="widget-contact-form-name" class="form-control name" placeholder="Ingrese aquí su nombre">
                                     </div>
-                                    <div class="form-group col-md-12">
+                                    <div class="form-group col-md-6">
                                         <label for="email">Email</label>
-                                        <input type="email" aria-required="true" name="widget-contact-form-email" required class="form-control required email" placeholder="Ingrese su Email">
+                                        <input type="email" aria-required="true" required name="widget-contact-form-email" class="form-control email" placeholder="Su Email">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="form-group col-md-12">
-                                        <label for="subject">Tema de su consulta</label>
-                                        <input type="text" name="widget-contact-form-subject" required class="form-control required" placeholder="El tema...">
+                                        <label for="subject">Tema</label>
+                                        <input type="text" name="widget-contact-form-subject" class="form-control" placeholder="El tema de su interés o consulta...">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="message">Acá puede explayarse un poco más</label>
-                                    <textarea type="text" name="widget-contact-form-message" required rows="5" class="form-control required" placeholder="El contenido de su mensaje..."></textarea>
+                                    <label for="message">Mensaje</label>
+                                    <textarea type="text" name="widget-contact-form-message" rows="5" class="form-control " placeholder="Aquí puede explayarse más a gusto..."></textarea>
                                 </div>
                                 <div class="form-group">
                                     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -160,21 +160,33 @@
                             </form>
                         </div>
                     </div>
-                </div>
-                <!-- <div class="row">
-                    <div class="col-lg-12">
-                        <h3 class="m-b-10">Donde estamos?</h3>
+                    <div class="col-lg-6">
+                        <h3 class="m-b-10">Nuestra dirección:</h3>
                         <div class="row">
+                            <div class="col-lg-6">
                                 <address>
                                     <strong>VR4</strong><br>
                                     Av. Alicia M. de Justo 2030<br>
                                     Oficina 303, 3° (C1107)<br>
-                                    Puerto Madero, Argentina<br>
-                                    <abbr title="Teléfono"></h4> +54 11 3221 0427
+                                    Puerto Madero, Buenos Aires, Argentina<br>
+                                    <abbr title="Teléfono">Teléfono:</h4> +54 11 3221 0427
                                 </address>
+                            </div>
+                            <!-- <div class="col-lg-6">
+                                <address>
+                                    <strong>Polo Office</strong><br>
+                                    795 Folsom Ave, Suite 600<br>
+                                    San Francisco, CA 94107<br>
+                                    <abbr title="Phone">P:</h4> (123) 456-7890
+                                </address>
+                            </div> -->
                         </div>
+                        <!-- Google Map -->
+                        
+                        <!-- <div class="map" data-latitude="-37.817240" data-longitude="144.955826" data-style="light" data-info="Hello from &lt;br&gt; Inspiro Themes"></div> -->
+                        <!-- end: Google Map -->
                     </div>
-                </div> -->
+                </div>
             </div>
         </section>
         <!-- end: Content -->
