@@ -16,7 +16,7 @@
 <body>
     <div class="body-inner">
         <!-- Header -->
-        <header id="header" data-transparent="true" data-fullwidth="true" class="dark submenu-light">
+        <header id="header" data-transparent="true" data-fullwidth="false" class="dark submenu-light">
             <div class="header-inner">
                 <div class="container">
                     <!--Logo-->
@@ -104,25 +104,26 @@
             </div>
         </header>
         <!-- end: Header -->
+        <!-- Page title -->
+        <section id="page-title" data-bg-parallax="images/notices.png">
+            <div class="container">
+                <div class="page-title">
+                    <h1>Nuestro Blog</h1>
+                    <span>Noticias y artículos de interés.</span>
+                </div>
+                <div class="breadcrumb">
+                    <ul>
+                        <li><a href="#">Inicio</a> </li>
+                        <li class="active"><a href="#">Blog</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- end: Page title -->
         <!-- Content -->
         <section id="page-content">
             <div class="container">
                 <!-- post content -->
-                <!-- Page title -->
-                <div class="page-title">
-                    <h1>Blog Masonry - Three Columns</h1>
-                    <div class="breadcrumb float-left">
-                        <ul>
-                            <li><a href="#">Home</a>
-                            </li>
-                            <li><a href="#">Blog</a>
-                            </li>
-                            <li class="active"><a href="#">Three Columns</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- end: Page title -->
                 <!-- Blog -->
                 <div id="blog" class="grid-layout post-3-columns m-b-30" data-item="post-item">
                     <!-- Post item-->
@@ -333,67 +334,75 @@
             <div class="footer-content">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-5">
-                            <div class="widget">
-                                <div class="widget-title">Polo HTML5 Template</div>
-                                <p class="mb-5">Built with love in Fort Worth, Texas, USA<br> All rights reserved. Copyright © 2021. INSPIRO.</p>
-                                <a href="https://themeforest.net/item/polo-responsive-multipurpose-html5-template/13708923" class="btn btn-inverted" target="_blank">Purchase Now</a>
+                        <div class="col-lg-4  col-lg-2 col-md-4">
+                            <!-- Footer widget area 1 -->
+                            <div class="widget  widget-contact-us" >
+                                <h4>VR4</h4>
+                                <ul class="list-icon">
+                                    <li><i class="fa fa-phone"></i> +54 11 3221 0427 </li>  
+                                    <li><i class="far fa-envelope"></i> <a href="mailto:hello@vr4it.com">hello@vr4it.com</a> </li>                           
+                                    <li><i class="fa fa-map-marker-alt"></i>Av. Alicia M. de Justo 2030 <br> Oficina 303, 3° (C1107) <br> Puerto Madero, Argentina</li>
+                                    <li>
+                                </ul>
                             </div>
+                            <!-- end: Footer widget area 1 -->
                         </div>
-                        <div class="col-lg-7">
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <div class="widget">
-                                        <div class="widget-title">Discover</div>
-                                        <ul class="list">
-                                            <li><a href="#">Features</a></li>
-                                            <li><a href="#">Layouts</a></li>
-                                            <li><a href="#">Corporate</a></li>
-                                            <li><a href="#">Updates</a></li>
-                                            <li><a href="#">Pricing</a></li>
-                                            <li><a href="#">Customers</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="widget">
-                                        <div class="widget-title">Features</div>
-                                        <ul class="list">
-                                            <li><a href="#">Layouts</a></li>
-                                            <li><a href="#">Headers</a></li>
-                                            <li><a href="#">Widgets</a></li>
-                                            <li><a href="#">Footers</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="widget">
-                                        <div class="widget-title">Pages</div>
-                                        <ul class="list">
-                                            <li><a href="#">Portfolio</a></li>
-                                            <li><a href="#">Blog</a></li>
-                                            <li><a href="#">Shop</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="widget">
-                                        <div class="widget-title">Support</div>
-                                        <ul class="list">
-                                            <li><a href="#">Help Desk</a></li>
-                                            <li><a href="#">Documentation</a></li>
-                                            <li><a href="#">Contact Us</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+
+                        <div class="col-xl-2 col-lg-2 col-md-3">
+                            <!-- Footer widget area 3 -->
+                            <div class="widget">
+                                <h4>COMPANY</h4>
+                                <ul class="list">
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Portfolio</a></li>
+                                </ul>
                             </div>
+                            <!-- end: Footer widget area 3 -->
+                        </div>
+
+                        <div class="col-xl-2 col-lg-2 col-md-3">
+                            <!-- Footer widget area 4 -->
+                            <div class="widget">
+                                <h4>INFO</h4>
+                                <ul class="list">
+                                    <li><a href="#">Get Directions</a></li>
+                                    <li><a href="#">Call Us</a></li>
+                                    <li><a href="#">Our Staff</a></li>
+                                    <li><a href="#">Working Hours</a></li>
+                                    <li><a href="#">Offices</a></li>
+                                </ul>
+                            </div>
+                            <!-- end: Footer widget area 4 -->
+                        </div>
+
+                        <div class="col-xl-4 col-lg-4 col-md-12">
+                            <!-- Footer widget area 5 -->
+                            <div class="widget clearfix widget-newsletter">
+                                <h4 class="widget-title"><i class="fa fa-envelope"></i> Suscríbete a nuestro Newsletter</h4>
+                                <p>Recibe cada semana novedades, informes, análisis y tendencias del mundo tecnológico.
+
+                                </p>
+                                <form class="widget-subscribe-form p-r-40" action="include/subscribe-form.php" role="form" method="post" novalidate="novalidate">
+
+
+                                    <div class="input-group">
+                                        <input aria-required="true" name="widget-subscribe-form-email" class="form-control required email" placeholder="Escribe tu Email" type="email">
+                                        <span class="input-group-btn">
+                      <button type="submit" id="widget-subscribe-submit-button" class="btn btn-primary"><i class="fa fa-paper-plane"></i></button>
+                    </span> </div>
+                                </form>
+                            </div>
+                            <!-- end: Footer widget area 5 -->
                         </div>
                     </div>
                 </div>
             </div>
             <div class="copyright-content">
                 <div class="container">
-                    <div class="copyright-text text-center">&copy; 2021 POLO - Responsive Multi-Purpose HTML5 Template. All Rights Reserved.<a href="https://www.inspiro-media.com" target="_blank" rel="noopener"> INSPIRO</a> </div>
+                    <div class="copyright-text text-center">&copy; 2021 VR4 S.A. Todos los derechos reservados.</div>
                 </div>
             </div>
         </footer>
