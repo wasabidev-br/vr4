@@ -471,7 +471,7 @@ Topbar
 
 #header.header-mini .header-inner, #header.header-mini #header-wrap { height: 60px; }
 
-#header.header-mini .header-inner #mainMenu > .container nav > ul > li > a, #header.header-mini #header-wrap #mainMenu > .container nav > ul > li > a { font-size: 11px; }
+#header.header-mini .header-inner #mainMenu > .container nav > ul > li > a, #header.header-mini #header-wrap #mainMenu > .container nav > ul > li > a { font-size: 14px; }
 
 #header.header-mini .header-inner #mainMenu > .container nav > ul > li .dropdown-submenu:before, #header.header-mini #header-wrap #mainMenu > .container nav > ul > li .dropdown-submenu:before { top: -6px; }
 
@@ -573,7 +573,7 @@ Main Menu
 
 #mainMenu nav > ul > li { float: left; border: 0; -webkit-transition: all .3s ease; transition: all .3s ease; margin-left: 6px; position: relative; }
 
-#mainMenu nav > ul > li > a { position: relative; font-family: "Poppins", sans-serif; padding: 10px 12px; font-size: 18px; font-weight: 600; letter-spacing: 0.6px; color: #000000; border-radius: 0; border-width: 0; border-style: solid; border-color: transparent; -webkit-transition: all .3s ease; transition: all .3s ease; line-height: normal; }
+#mainMenu nav > ul > li > a { position: relative; font-family: "Poppins", sans-serif; padding: 10px 12px; font-size: 16px; font-weight: 600; letter-spacing: 0.6px; color: #000000; border-radius: 0; border-width: 0; border-style: solid; border-color: transparent; -webkit-transition: all .3s ease; transition: all .3s ease; line-height: normal; }
 
 #mainMenu nav > ul > li > a > i { margin-left: 2px; margin-right: 6px; min-width: 14px; font-size: 14px; }
 
@@ -581,13 +581,13 @@ Main Menu
 
 #mainMenu nav > ul > li.hover-active > a, #mainMenu nav > ul > li.hover-active > span, #mainMenu nav > ul > li.current > a, #mainMenu nav > ul > li.current > span, #mainMenu nav > ul > li:hover > a, #mainMenu nav > ul > li:hover > span, #mainMenu nav > ul > li:focus > a, #mainMenu nav > ul > li:focus > span { color: #2250fc; }
 
-#mainMenu nav > ul > li.dropdown:before { content: "\e930"; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); font-family: "inspiro-icons"; opacity: 0.6; position: absolute; right: 16px; color: #c1c3ce; font-size: 16px; display: none; }
+#mainMenu nav > ul > li.dropdown:before { content: "\e930"; -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); font-family: "inspiro-icons"; opacity: 0.6; position: absolute; right: 16px; color: #c1c3ce; font-size: 14px; display: none; }
 
 #mainMenu nav > ul > li .dropdown-arrow { display: none; height: 40px; width: 50px; position: absolute; z-index: 1; right: -10px; top: 0; cursor: pointer; }
 
 #mainMenu nav > ul > li .dropdown-menu { background-position: right bottom; background-repeat: no-repeat; min-width: 230px; top: auto; background-color: #fff; border: 0; color: #000000; border-style: solid; border-color: #fbfbfb; border-width: 1px !important; left: auto; margin: 0; margin-top: -6px; border-radius: 4px; box-shadow: 0 33px 32px rgba(0, 0, 0, 0.1); padding: 10px; display: none; position: absolute; }
 
-#mainMenu nav > ul > li .dropdown-menu > li > a, #mainMenu nav > ul > li .dropdown-menu > li > span, #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a { font-size: 12px; line-height: 14px; font-weight: 500; font-style: normal; color: #444; font-family: "Poppins", sans-serif; padding: 12px 20px 12px 18px; display: block; -webkit-transition: .3s ease; transition: .3s ease; }
+#mainMenu nav > ul > li .dropdown-menu > li > a, #mainMenu nav > ul > li .dropdown-menu > li > span, #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a { font-size: 16px; line-height: 14px; font-weight: 500; font-style: normal; color: #444; font-family: "Poppins", sans-serif; padding: 12px 20px 12px 18px; display: block; -webkit-transition: .3s ease; transition: .3s ease; }
 
 #mainMenu nav > ul > li .dropdown-menu > li > a:focus, #mainMenu nav > ul > li .dropdown-menu > li > a:hover, #mainMenu nav > ul > li .dropdown-menu > li > a:active, #mainMenu nav > ul > li .dropdown-menu > li > span:focus, #mainMenu nav > ul > li .dropdown-menu > li > span:hover, #mainMenu nav > ul > li .dropdown-menu > li > span:active, #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:focus, #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:hover, #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:active { background-color: transparent; color: #2250fc; cursor: pointer; }
 
@@ -2838,7 +2838,7 @@ td.fc-today { border-style: none; }
 
 .p-dropdown .p-dropdown-content ul > li:first-child label, .p-dropdown .p-dropdown-content > li:first-child label, .p-dropdown ul.p-dropdown-content ul > li:first-child label, .p-dropdown ul.p-dropdown-content > li:first-child label { margin-top: 0; }
 
-.p-dropdown .p-dropdown-content ul > li label, .p-dropdown .p-dropdown-content > li label, .p-dropdown ul.p-dropdown-content ul > li label, .p-dropdown ul.p-dropdown-content > li label { color: #e4e6ef; font-size: 11px; text-transform: uppercase; margin-top: 14px; margin-bottom: 0; }
+.p-dropdown .p-dropdown-content ul > li label, .p-dropdown .p-dropdown-content > li label, .p-dropdown ul.p-dropdown-content ul > li label, .p-dropdown ul.p-dropdown-content > li label { color: #e4e6ef; font-size: 16px; text-transform: uppercase; margin-top: 14px; margin-bottom: 0; }
 
 .p-dropdown .p-dropdown-content ul > li a, .p-dropdown .p-dropdown-content > li a, .p-dropdown ul.p-dropdown-content ul > li a, .p-dropdown ul.p-dropdown-content > li a { line-height: 26px; white-space: nowrap; display: block; padding: 2px 8px; }
 
